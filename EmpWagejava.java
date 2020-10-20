@@ -6,7 +6,7 @@ public class EmpWagejava
 		public static final int numOfWorkingDaysInMonth = 20;
 		public static final int maxHoursInMonth = 100;
 
-	public static void main(String[] args)
+	public static int computeEmpWage()
 	{
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("Welcome to Employee wage computation program");
@@ -44,5 +44,11 @@ public class EmpWagejava
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("Total Employee wage is " +totalEmpWageForMonth);
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		return totalEmpWageForMonth;
+	}
+
+	public static void main(String args[])
+	{
+	computeEmpWage();
 	}
 }
